@@ -3,3 +3,5 @@
 	* CMake
 	* CUnit
 	* Git
+    Use CMake to generate makefile and then use it.
+    
