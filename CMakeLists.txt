@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.0)
 project(practice)
 
 include_directories(include)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
+
 add_subdirectory(src)
 
 #set(SRC main.c add.c)
